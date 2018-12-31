@@ -1,0 +1,51 @@
+Dado que necesitamos generar gráficos utilizaremos la herramienta denomina \href{http://www.jfree.org/jfreechart/}{\tt J\+Free\+Chart}. J\+Free\+Chart es un marco de software open source para el lenguaje de programación Java, el cual permite la creación de gráficos complejos de forma simple.
+
+J\+Free\+Chart trabaja con G\+NU Classpath, una implementación en software libre de la norma estándar de biblioteca de clases para el lenguaje de programación Java. J\+Free\+Chart es compatible con una serie de gráficas diferentes, incluyendo cuadros combinados. Estos gráficos son\+:
+\begin{DoxyItemize}
+\item Gráficos XY.
+\item Gráfico circular.
+\item Diagrama de Gantt.
+\item Gráficos de barras (Histogramas).
+\item Single valued (Termómetro, brújula, indicador de velocidad).
+\end{DoxyItemize}
+
+\#\#\# Para el uso la librería, se utiliza (mediante \href{https://maven.apache.org/}{\tt Maven}) 
+\begin{DoxyCode}
+<\textcolor{keywordtype}{dependency}>
+    <\textcolor{keywordtype}{groupId}>\textcolor{keyword}{org.jfree}</\textcolor{keywordtype}{groupId}>
+    <\textcolor{keywordtype}{artifactId}>\textcolor{keyword}{jfreechart}</\textcolor{keywordtype}{artifactId}>
+    <\textcolor{keywordtype}{version}>1.0.14</\textcolor{keywordtype}{version}>
+</\textcolor{keywordtype}{dependency}>
+\end{DoxyCode}
+
+
+\subsubsection*{Inicialmente se da divido en tres grandes módulos de desarrollo.}
+
+{\bfseries Entradas}
+\begin{DoxyItemize}
+\item Vamos a desarrollar una aplicación que tendrá datos de entrada Datos Abiertos (Open Data), tales que los formatos de dichos ficheros van a ser\+:
+\begin{DoxyItemize}
+\item “.\+A\+S\+C\+I\+I”
+\item “.\+cvs”
+\item “.\+xls”.
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+{\bfseries Proceso}
+\begin{DoxyItemize}
+\item Normalizar y formalizar los datos a un formato comprensible para J\+Free\+Chart.
+\item Gestión del procesamiento de la salida.
+\end{DoxyItemize}
+
+{\bfseries Salidas}
+\begin{DoxyItemize}
+\item Gestiona la salida dando la posibilidad de mostrar la información en distintos formatos al usuario, como son\+:
+\begin{DoxyItemize}
+\item Diagrama de barras
+\item Diagrama de pastel
+\item Información mediante la consola
+\item Imprimir en pdf (imprime la opción elegida de las anteriores)
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+Para la gestión de la documentación se hace uso de la herramienta \href{http://www.stack.nl/~dimitri/doxygen/}{\tt Doxygen} 
