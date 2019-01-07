@@ -1,0 +1,13 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ull.herramientas.opendatachartgenerator.salida.\lCrearPDF",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classull_1_1herramientas_1_1opendatachartgenerator_1_1salida_1_1_crear_p_d_f.html",tooltip="Clase abstracta utilizada imprimir en un documento pdf esta clase será común a todas las clases de cr..."];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="ull.herramientas.opendatachartgenerator.salida.\lCrearPDFBarras",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classull_1_1herramientas_1_1opendatachartgenerator_1_1salida_1_1_crear_p_d_f_barras.html",tooltip="Clase que crea y configura un documento pdf para imprirmir los datos del gráfico de barras..."];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ull.herramientas.opendatachartgenerator.salida.\lCrearPDFConsola",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classull_1_1herramientas_1_1opendatachartgenerator_1_1salida_1_1_crear_p_d_f_consola.html",tooltip="Clase que crea y configura un documento pdf para imprirmir los datos. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ull.herramientas.opendatachartgenerator.salida.\lCrearPDFPastel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classull_1_1herramientas_1_1opendatachartgenerator_1_1salida_1_1_crear_p_d_f_pastel.html",tooltip="Clase que crea y configura un documento pdf para imprirmir los datos del gráfico de pastel..."];
+}
