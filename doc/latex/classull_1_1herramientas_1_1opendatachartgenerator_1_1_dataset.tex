@@ -1,0 +1,200 @@
+\hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset}{}\section{ull.\+herramientas.\+opendatachartgenerator.\+Dataset Class Reference}
+\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset}\index{ull.\+herramientas.\+opendatachartgenerator.\+Dataset@{ull.\+herramientas.\+opendatachartgenerator.\+Dataset}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a072582f59ed98fb752261920a684441c}{Dataset}} (String url, int mode)  throws Malformed\+U\+R\+L\+Exception, I\+O\+Exception 	
+\begin{DoxyCompactList}\small\item\em Constructor del dataset. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader}{I\+Reader}} \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a108bc150d3c0505b91022cccd04238e1}{get\+Reader}} ()
+\item 
+void \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a39f09ea187d8518a773a17ecbe6b4b6b}{set\+Reader}} (\mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader}{I\+Reader}} reader)
+\item 
+Array\+List$<$ \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_instancia}{Instancia}} $>$ \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_acc64100fc6924fc988828bfb10121fdd}{get\+Rows}} ()
+\item 
+void \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a2dfc0af3a5e9c6e6b2d6bde97bc0981c}{set\+Rows}} (Array\+List$<$ \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_instancia}{Instancia}} $>$ rows)
+\item 
+String \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_af9ee7ea6ec6e21192d958d01c97af701}{get\+Columnas}} ()
+\item 
+void \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_ab202a3c49e1a2aa69f40d6c5d8e96bc2}{set\+Columnas}} (String\mbox{[}$\,$\mbox{]} columnas)
+\item 
+int \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_aaf8ec45f3cd314bf5eb9c233ab94328d}{size}} ()
+\item 
+Array\+List$<$ \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_atributo}{Atributo}} $>$ \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a696a9dfd92ba71e8fe28d3c6cb7de05a}{get\+Instancia}} (int i)
+\begin{DoxyCompactList}\small\item\em Retorna una instancia del conjunto de datos guardada en el índice i de su array de filas. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a011879709e156c54e099949f0e59e1d6}{numero\+\_\+de\+\_\+atributos}} ()
+\begin{DoxyCompactList}\small\item\em Retorna el número de atributos del conjunto de datos. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a2992d2c0880bea4d777dc4c09f1e288c}{get\+Nombre\+Atributo}} (int i)
+\begin{DoxyCompactList}\small\item\em Retorna el nombre del atributo de la columna i del conjunto de datos. \end{DoxyCompactList}\item 
+Array\+List$<$ String $>$ \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a9de53a532ec00647171d6dd7a614d1ef}{get\+Columna}} (int index)
+\begin{DoxyCompactList}\small\item\em Devuelve la lista de valores pertenecientes a una columna del conjunto de datos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a072582f59ed98fb752261920a684441c}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a072582f59ed98fb752261920a684441c}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}!Dataset@{Dataset}}
+\index{Dataset@{Dataset}!ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}}
+\subsubsection{\texorpdfstring{Dataset()}{Dataset()}}
+{\footnotesize\ttfamily ull.\+herramientas.\+opendatachartgenerator.\+Dataset.\+Dataset (\begin{DoxyParamCaption}\item[{String}]{url,  }\item[{int}]{mode }\end{DoxyParamCaption}) throws Malformed\+U\+R\+L\+Exception, I\+O\+Exception}
+
+
+
+Constructor del dataset. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em url} & -\/ U\+RL del dataset a procesar \\
+\hline
+{\em mode} & -\/ Formato del dataset a procesar \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Malformed\+U\+R\+L\+Exception} & \\
+\hline
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a9de53a532ec00647171d6dd7a614d1ef}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a9de53a532ec00647171d6dd7a614d1ef}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}!get\+Columna@{get\+Columna}}
+\index{get\+Columna@{get\+Columna}!ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Columna()}{getColumna()}}
+{\footnotesize\ttfamily Array\+List$<$String$>$ ull.\+herramientas.\+opendatachartgenerator.\+Dataset.\+get\+Columna (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Devuelve la lista de valores pertenecientes a una columna del conjunto de datos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & -\/ índice de columna del conjunto de datos \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+lista de valores de columna index del conjunto de datos 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_af9ee7ea6ec6e21192d958d01c97af701}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_af9ee7ea6ec6e21192d958d01c97af701}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}!get\+Columnas@{get\+Columnas}}
+\index{get\+Columnas@{get\+Columnas}!ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Columnas()}{getColumnas()}}
+{\footnotesize\ttfamily String \mbox{[}$\,$\mbox{]} ull.\+herramientas.\+opendatachartgenerator.\+Dataset.\+get\+Columnas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+los nombres de las columnas del conjunto de datos 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a696a9dfd92ba71e8fe28d3c6cb7de05a}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a696a9dfd92ba71e8fe28d3c6cb7de05a}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}!get\+Instancia@{get\+Instancia}}
+\index{get\+Instancia@{get\+Instancia}!ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Instancia()}{getInstancia()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_atributo}{Atributo}}$>$ ull.\+herramientas.\+opendatachartgenerator.\+Dataset.\+get\+Instancia (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Retorna una instancia del conjunto de datos guardada en el índice i de su array de filas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & -\/ Índice de array de filas. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a2992d2c0880bea4d777dc4c09f1e288c}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a2992d2c0880bea4d777dc4c09f1e288c}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}!get\+Nombre\+Atributo@{get\+Nombre\+Atributo}}
+\index{get\+Nombre\+Atributo@{get\+Nombre\+Atributo}!ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Nombre\+Atributo()}{getNombreAtributo()}}
+{\footnotesize\ttfamily String ull.\+herramientas.\+opendatachartgenerator.\+Dataset.\+get\+Nombre\+Atributo (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Retorna el nombre del atributo de la columna i del conjunto de datos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & -\/ índice de columna de conjunto de datos \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nombre del atributo de columna i de conjunto de datos 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a108bc150d3c0505b91022cccd04238e1}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a108bc150d3c0505b91022cccd04238e1}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}!get\+Reader@{get\+Reader}}
+\index{get\+Reader@{get\+Reader}!ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Reader()}{getReader()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader}{I\+Reader}} ull.\+herramientas.\+opendatachartgenerator.\+Dataset.\+get\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+el lector de conjuntos de datos 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_acc64100fc6924fc988828bfb10121fdd}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_acc64100fc6924fc988828bfb10121fdd}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}!get\+Rows@{get\+Rows}}
+\index{get\+Rows@{get\+Rows}!ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}}
+\subsubsection{\texorpdfstring{get\+Rows()}{getRows()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_instancia}{Instancia}}$>$ ull.\+herramientas.\+opendatachartgenerator.\+Dataset.\+get\+Rows (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+las filas del conjunto de datos 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a011879709e156c54e099949f0e59e1d6}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a011879709e156c54e099949f0e59e1d6}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}!numero\+\_\+de\+\_\+atributos@{numero\+\_\+de\+\_\+atributos}}
+\index{numero\+\_\+de\+\_\+atributos@{numero\+\_\+de\+\_\+atributos}!ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}}
+\subsubsection{\texorpdfstring{numero\+\_\+de\+\_\+atributos()}{numero\_de\_atributos()}}
+{\footnotesize\ttfamily int ull.\+herramientas.\+opendatachartgenerator.\+Dataset.\+numero\+\_\+de\+\_\+atributos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retorna el número de atributos del conjunto de datos. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_ab202a3c49e1a2aa69f40d6c5d8e96bc2}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_ab202a3c49e1a2aa69f40d6c5d8e96bc2}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}!set\+Columnas@{set\+Columnas}}
+\index{set\+Columnas@{set\+Columnas}!ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}}
+\subsubsection{\texorpdfstring{set\+Columnas()}{setColumnas()}}
+{\footnotesize\ttfamily void ull.\+herramientas.\+opendatachartgenerator.\+Dataset.\+set\+Columnas (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{columnas }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em columnas} & -\/ los nombres de las columnas del conjunto de datos a asignar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a39f09ea187d8518a773a17ecbe6b4b6b}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a39f09ea187d8518a773a17ecbe6b4b6b}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}!set\+Reader@{set\+Reader}}
+\index{set\+Reader@{set\+Reader}!ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}}
+\subsubsection{\texorpdfstring{set\+Reader()}{setReader()}}
+{\footnotesize\ttfamily void ull.\+herramientas.\+opendatachartgenerator.\+Dataset.\+set\+Reader (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader}{I\+Reader}}}]{reader }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em reader} & -\/ el lector de conjuntos de datos a asignar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a2dfc0af3a5e9c6e6b2d6bde97bc0981c}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_a2dfc0af3a5e9c6e6b2d6bde97bc0981c}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}!set\+Rows@{set\+Rows}}
+\index{set\+Rows@{set\+Rows}!ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}}
+\subsubsection{\texorpdfstring{set\+Rows()}{setRows()}}
+{\footnotesize\ttfamily void ull.\+herramientas.\+opendatachartgenerator.\+Dataset.\+set\+Rows (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_instancia}{Instancia}} $>$}]{rows }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em rows} & -\/ las filas del conjunto de datos a asignar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_aaf8ec45f3cd314bf5eb9c233ab94328d}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_dataset_aaf8ec45f3cd314bf5eb9c233ab94328d}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}!size@{size}}
+\index{size@{size}!ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset@{ull\+::herramientas\+::opendatachartgenerator\+::\+Dataset}}
+\subsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily int ull.\+herramientas.\+opendatachartgenerator.\+Dataset.\+size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+el número de filas del conjunto de datos 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/usuario/\+Downloads/\+Proyecto\+\_\+\+Estudiantes-\/master/src/main/java/ull/herramientas/opendatachartgenerator/Dataset.\+java\end{DoxyCompactItemize}

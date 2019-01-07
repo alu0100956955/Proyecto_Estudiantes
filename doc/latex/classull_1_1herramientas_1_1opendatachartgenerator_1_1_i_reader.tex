@@ -1,0 +1,183 @@
+\hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader}{}\section{ull.\+herramientas.\+opendatachartgenerator.\+I\+Reader Class Reference}
+\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader}\index{ull.\+herramientas.\+opendatachartgenerator.\+I\+Reader@{ull.\+herramientas.\+opendatachartgenerator.\+I\+Reader}}
+
+
+Inheritance diagram for ull.\+herramientas.\+opendatachartgenerator.\+I\+Reader\+:
+% FIG 0
+
+
+Collaboration diagram for ull.\+herramientas.\+opendatachartgenerator.\+I\+Reader\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract Array\+List$<$ \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_instancia}{Instancia}} $>$ \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a4f53ad4ca08020c941157c7d7e1c1407}{leer\+Todo}} (Input\+Stream is)  throws I\+O\+Exception
+\begin{DoxyCompactList}\small\item\em Método que lee todo el contenido de un flujo de entrada y extrae de él un array de instancias de datos. \end{DoxyCompactList}\item 
+Array\+List$<$ \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_instancia}{Instancia}} $>$ \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a824566797fd0023f9d56a706406206f0}{leerde\+U\+RL}} (String url)  throws Malformed\+U\+R\+L\+Exception, I\+O\+Exception 
+\begin{DoxyCompactList}\small\item\em Metodo para leer por url. \end{DoxyCompactList}\item 
+Array\+List$<$ \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_instancia}{Instancia}} $>$ \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a367ada0f7191f71f6501d6c6a1a64aaa}{leerde\+Fichero}} (String file)  throws Malformed\+U\+R\+L\+Exception, I\+O\+Exception 
+\begin{DoxyCompactList}\small\item\em Metodo para leer por fichero. \end{DoxyCompactList}\item 
+Array\+List$<$ \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_instancia}{Instancia}} $>$ \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a73eef4201fbc47bcfa069fe8cd83fee3}{leer\+Datos}} (String direccion)  throws Malformed\+U\+R\+L\+Exception, I\+O\+Exception 
+\begin{DoxyCompactList}\small\item\em Metodo para leer los datos desde una url. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a4d0c71c238e6613784f0c618b9236f0d}{is\+Valid\+U\+RL}} (String url)
+\begin{DoxyCompactList}\small\item\em Metodo booleano que nos dice si la url esta correcta. \end{DoxyCompactList}\item 
+String \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a2b9de98502df2fe23f2e96b680cd5c95}{get\+Nombres\+\_\+atributos}} ()
+\item 
+void \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_ad078d928cdbda3f0d5bc324fd6724552}{set\+Nombres\+\_\+atributos}} (String\mbox{[}$\,$\mbox{]} nombres\+\_\+atributos)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a43d0ac954a6642eb70c65ac91f2ee49a}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a43d0ac954a6642eb70c65ac91f2ee49a}} 
+Array\+List$<$ \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_instancia}{Instancia}} $>$ {\bfseries instancias}
+\item 
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_af08f30649d8689518c0db66463110618}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_af08f30649d8689518c0db66463110618}} 
+String \mbox{[}$\,$\mbox{]} {\bfseries nombres\+\_\+atributos}
+\item 
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a8d5486b73022565940486477a0e41f1e}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a8d5486b73022565940486477a0e41f1e}} 
+final Logger {\bfseries mlog\+Consola} = Logger.\+get\+Logger(I\+Reader.\+class.\+get\+Name())
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a2b9de98502df2fe23f2e96b680cd5c95}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a2b9de98502df2fe23f2e96b680cd5c95}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader@{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader}!get\+Nombres\+\_\+atributos@{get\+Nombres\+\_\+atributos}}
+\index{get\+Nombres\+\_\+atributos@{get\+Nombres\+\_\+atributos}!ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader@{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader}}
+\subsubsection{\texorpdfstring{get\+Nombres\+\_\+atributos()}{getNombres\_atributos()}}
+{\footnotesize\ttfamily String \mbox{[}$\,$\mbox{]} ull.\+herramientas.\+opendatachartgenerator.\+I\+Reader.\+get\+Nombres\+\_\+atributos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+the nombres\+\_\+atributos; 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a4d0c71c238e6613784f0c618b9236f0d}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a4d0c71c238e6613784f0c618b9236f0d}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader@{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader}!is\+Valid\+U\+RL@{is\+Valid\+U\+RL}}
+\index{is\+Valid\+U\+RL@{is\+Valid\+U\+RL}!ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader@{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader}}
+\subsubsection{\texorpdfstring{is\+Valid\+U\+R\+L()}{isValidURL()}}
+{\footnotesize\ttfamily boolean ull.\+herramientas.\+opendatachartgenerator.\+I\+Reader.\+is\+Valid\+U\+RL (\begin{DoxyParamCaption}\item[{String}]{url }\end{DoxyParamCaption})}
+
+
+
+Metodo booleano que nos dice si la url esta correcta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em url} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a73eef4201fbc47bcfa069fe8cd83fee3}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a73eef4201fbc47bcfa069fe8cd83fee3}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader@{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader}!leer\+Datos@{leer\+Datos}}
+\index{leer\+Datos@{leer\+Datos}!ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader@{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader}}
+\subsubsection{\texorpdfstring{leer\+Datos()}{leerDatos()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_instancia}{Instancia}}$>$ ull.\+herramientas.\+opendatachartgenerator.\+I\+Reader.\+leer\+Datos (\begin{DoxyParamCaption}\item[{String}]{direccion }\end{DoxyParamCaption}) throws Malformed\+U\+R\+L\+Exception, I\+O\+Exception}
+
+
+
+Metodo para leer los datos desde una url. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em direccion} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Malformed\+U\+R\+L\+Exception} & \\
+\hline
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a367ada0f7191f71f6501d6c6a1a64aaa}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a367ada0f7191f71f6501d6c6a1a64aaa}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader@{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader}!leerde\+Fichero@{leerde\+Fichero}}
+\index{leerde\+Fichero@{leerde\+Fichero}!ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader@{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader}}
+\subsubsection{\texorpdfstring{leerde\+Fichero()}{leerdeFichero()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_instancia}{Instancia}}$>$ ull.\+herramientas.\+opendatachartgenerator.\+I\+Reader.\+leerde\+Fichero (\begin{DoxyParamCaption}\item[{String}]{file }\end{DoxyParamCaption}) throws Malformed\+U\+R\+L\+Exception, I\+O\+Exception}
+
+
+
+Metodo para leer por fichero. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Malformed\+U\+R\+L\+Exception} & \\
+\hline
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a824566797fd0023f9d56a706406206f0}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a824566797fd0023f9d56a706406206f0}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader@{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader}!leerde\+U\+RL@{leerde\+U\+RL}}
+\index{leerde\+U\+RL@{leerde\+U\+RL}!ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader@{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader}}
+\subsubsection{\texorpdfstring{leerde\+U\+R\+L()}{leerdeURL()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_instancia}{Instancia}}$>$ ull.\+herramientas.\+opendatachartgenerator.\+I\+Reader.\+leerde\+U\+RL (\begin{DoxyParamCaption}\item[{String}]{url }\end{DoxyParamCaption}) throws Malformed\+U\+R\+L\+Exception, I\+O\+Exception}
+
+
+
+Metodo para leer por url. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em url} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Malformed\+U\+R\+L\+Exception} & \\
+\hline
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a4f53ad4ca08020c941157c7d7e1c1407}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_a4f53ad4ca08020c941157c7d7e1c1407}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader@{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader}!leer\+Todo@{leer\+Todo}}
+\index{leer\+Todo@{leer\+Todo}!ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader@{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader}}
+\subsubsection{\texorpdfstring{leer\+Todo()}{leerTodo()}}
+{\footnotesize\ttfamily abstract Array\+List$<$\mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_instancia}{Instancia}}$>$ ull.\+herramientas.\+opendatachartgenerator.\+I\+Reader.\+leer\+Todo (\begin{DoxyParamCaption}\item[{Input\+Stream}]{is }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [abstract]}}
+
+
+
+Método que lee todo el contenido de un flujo de entrada y extrae de él un array de instancias de datos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is} & -\/ flujo de entrada \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array de instancias de datos 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_ad078d928cdbda3f0d5bc324fd6724552}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_i_reader_ad078d928cdbda3f0d5bc324fd6724552}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader@{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader}!set\+Nombres\+\_\+atributos@{set\+Nombres\+\_\+atributos}}
+\index{set\+Nombres\+\_\+atributos@{set\+Nombres\+\_\+atributos}!ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader@{ull\+::herramientas\+::opendatachartgenerator\+::\+I\+Reader}}
+\subsubsection{\texorpdfstring{set\+Nombres\+\_\+atributos()}{setNombres\_atributos()}}
+{\footnotesize\ttfamily void ull.\+herramientas.\+opendatachartgenerator.\+I\+Reader.\+set\+Nombres\+\_\+atributos (\begin{DoxyParamCaption}\item[{String \mbox{[}$\,$\mbox{]}}]{nombres\+\_\+atributos }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombres\+\_\+atributos} & the nombres\+\_\+atributos to set \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/usuario/\+Downloads/\+Proyecto\+\_\+\+Estudiantes-\/master/src/main/java/ull/herramientas/opendatachartgenerator/I\+Reader.\+java\end{DoxyCompactItemize}

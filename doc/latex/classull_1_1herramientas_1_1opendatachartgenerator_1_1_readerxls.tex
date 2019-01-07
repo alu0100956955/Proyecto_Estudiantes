@@ -1,0 +1,48 @@
+\hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_readerxls}{}\section{ull.\+herramientas.\+opendatachartgenerator.\+Readerxls Class Reference}
+\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_readerxls}\index{ull.\+herramientas.\+opendatachartgenerator.\+Readerxls@{ull.\+herramientas.\+opendatachartgenerator.\+Readerxls}}
+
+
+Inheritance diagram for ull.\+herramientas.\+opendatachartgenerator.\+Readerxls\+:
+% FIG 0
+
+
+Collaboration diagram for ull.\+herramientas.\+opendatachartgenerator.\+Readerxls\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Array\+List$<$ \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_instancia}{Instancia}} $>$ \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_readerxls_ad21347569e3d09540d39e51a637b1ebf}{leer\+Todo}} (Input\+Stream is)  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_readerxls_ad21347569e3d09540d39e51a637b1ebf}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_readerxls_ad21347569e3d09540d39e51a637b1ebf}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+Readerxls@{ull\+::herramientas\+::opendatachartgenerator\+::\+Readerxls}!leer\+Todo@{leer\+Todo}}
+\index{leer\+Todo@{leer\+Todo}!ull\+::herramientas\+::opendatachartgenerator\+::\+Readerxls@{ull\+::herramientas\+::opendatachartgenerator\+::\+Readerxls}}
+\subsubsection{\texorpdfstring{leer\+Todo()}{leerTodo()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_instancia}{Instancia}}$>$ ull.\+herramientas.\+opendatachartgenerator.\+Readerxls.\+leer\+Todo (\begin{DoxyParamCaption}\item[{Input\+Stream}]{is }\end{DoxyParamCaption}) throws I\+O\+Exception}
+
+Inicializamos dos arraylists que nos serviran para almacenar la informacion del dataset
+
+Ademas de una variable que indicara si la columna que estamos recorriendo es la primera o no
+
+Utilizaremos una variable workbook especial para leer el fichero excel
+
+Comenzamos a recorrer el fichero por filas (instancias)
+
+Y dentro de cada fila recorremos cada celda, la cual almacena un atributo de la instancia
+
+Si la fila que recorremos es la primera, almacenaremos los nombres de los atributos en el arraylist names
+
+Pasamos los datos almacenados a un array de string para utilizarlo posteriormente
+
+En caso contrario se almacenaran los atributos en el arraylist values
+
+Pasamos los datos almacenados a un array de string para utilizarlo posteriormente
+
+Los arrays de strings se utilizan entonces para generar los vectores de atributos que crearan las instancias del dataset
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/usuario/\+Downloads/\+Proyecto\+\_\+\+Estudiantes-\/master/src/main/java/ull/herramientas/opendatachartgenerator/Readerxls.\+java\end{DoxyCompactItemize}

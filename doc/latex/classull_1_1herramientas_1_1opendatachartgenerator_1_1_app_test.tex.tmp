@@ -1,0 +1,96 @@
+\hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test}{}\section{ull.\+herramientas.\+opendatachartgenerator.\+App\+Test Class Reference}
+\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test}\index{ull.\+herramientas.\+opendatachartgenerator.\+App\+Test@{ull.\+herramientas.\+opendatachartgenerator.\+App\+Test}}
+
+
+Inheritance diagram for ull.\+herramientas.\+opendatachartgenerator.\+App\+Test\+:
+% FIG 0
+
+
+Collaboration diagram for ull.\+herramientas.\+opendatachartgenerator.\+App\+Test\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_a82bb5ae859f9b260e96a9cfbe473856e}{App\+Test}} (String test\+Name)
+\item 
+void \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_a06519d0b115fdafe1bb528673350b249}{test\+App}} ()
+\item 
+void \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_a02d14bd29fc7d476944e695fdc75181a}{test\+Size}} ()
+\item 
+void \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_a33dac44417b739618c323aef33a503d5}{test\+Get\+Nombre\+Atributo}} ()
+\item 
+void \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_a459fee2e82fb4fe23c6a61cfe47e98ea}{test\+Numero\+\_\+de\+\_\+atributos}} ()
+\item 
+void \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_a7a767114e34e5141046bd85601defac3}{test\+Exception}} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Test \mbox{\hyperlink{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_aea865a2fc0d0d9cd6bf21ba24fbd223f}{suite}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Unit test for simple App. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_a82bb5ae859f9b260e96a9cfbe473856e}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_a82bb5ae859f9b260e96a9cfbe473856e}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test@{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test}!App\+Test@{App\+Test}}
+\index{App\+Test@{App\+Test}!ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test@{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test}}
+\subsubsection{\texorpdfstring{App\+Test()}{AppTest()}}
+{\footnotesize\ttfamily ull.\+herramientas.\+opendatachartgenerator.\+App\+Test.\+App\+Test (\begin{DoxyParamCaption}\item[{String}]{test\+Name }\end{DoxyParamCaption})}
+
+Create the test case
+
+
+\begin{DoxyParams}{Parameters}
+{\em test\+Name} & name of the test case \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_aea865a2fc0d0d9cd6bf21ba24fbd223f}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_aea865a2fc0d0d9cd6bf21ba24fbd223f}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test@{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test}!suite@{suite}}
+\index{suite@{suite}!ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test@{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test}}
+\subsubsection{\texorpdfstring{suite()}{suite()}}
+{\footnotesize\ttfamily static Test ull.\+herramientas.\+opendatachartgenerator.\+App\+Test.\+suite (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+the suite of tests being tested 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_a06519d0b115fdafe1bb528673350b249}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_a06519d0b115fdafe1bb528673350b249}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test@{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test}!test\+App@{test\+App}}
+\index{test\+App@{test\+App}!ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test@{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test}}
+\subsubsection{\texorpdfstring{test\+App()}{testApp()}}
+{\footnotesize\ttfamily void ull.\+herramientas.\+opendatachartgenerator.\+App\+Test.\+test\+App (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Rigourous Test \+:-\/) \mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_a7a767114e34e5141046bd85601defac3}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_a7a767114e34e5141046bd85601defac3}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test@{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test}!test\+Exception@{test\+Exception}}
+\index{test\+Exception@{test\+Exception}!ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test@{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test}}
+\subsubsection{\texorpdfstring{test\+Exception()}{testException()}}
+{\footnotesize\ttfamily void ull.\+herramientas.\+opendatachartgenerator.\+App\+Test.\+test\+Exception (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Prueba que salta error debido a falta de datos \mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_a33dac44417b739618c323aef33a503d5}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_a33dac44417b739618c323aef33a503d5}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test@{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test}!test\+Get\+Nombre\+Atributo@{test\+Get\+Nombre\+Atributo}}
+\index{test\+Get\+Nombre\+Atributo@{test\+Get\+Nombre\+Atributo}!ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test@{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test}}
+\subsubsection{\texorpdfstring{test\+Get\+Nombre\+Atributo()}{testGetNombreAtributo()}}
+{\footnotesize\ttfamily void ull.\+herramientas.\+opendatachartgenerator.\+App\+Test.\+test\+Get\+Nombre\+Atributo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Prueba del metodo get\+Nombre\+Atributo \mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_a459fee2e82fb4fe23c6a61cfe47e98ea}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_a459fee2e82fb4fe23c6a61cfe47e98ea}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test@{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test}!test\+Numero\+\_\+de\+\_\+atributos@{test\+Numero\+\_\+de\+\_\+atributos}}
+\index{test\+Numero\+\_\+de\+\_\+atributos@{test\+Numero\+\_\+de\+\_\+atributos}!ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test@{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test}}
+\subsubsection{\texorpdfstring{test\+Numero\+\_\+de\+\_\+atributos()}{testNumero\_de\_atributos()}}
+{\footnotesize\ttfamily void ull.\+herramientas.\+opendatachartgenerator.\+App\+Test.\+test\+Numero\+\_\+de\+\_\+atributos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Prueba para el metodo numero\+\_\+de\+\_\+atributos() \mbox{\Hypertarget{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_a02d14bd29fc7d476944e695fdc75181a}\label{classull_1_1herramientas_1_1opendatachartgenerator_1_1_app_test_a02d14bd29fc7d476944e695fdc75181a}} 
+\index{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test@{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test}!test\+Size@{test\+Size}}
+\index{test\+Size@{test\+Size}!ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test@{ull\+::herramientas\+::opendatachartgenerator\+::\+App\+Test}}
+\subsubsection{\texorpdfstring{test\+Size()}{testSize()}}
+{\footnotesize\ttfamily void ull.\+herramientas.\+opendatachartgenerator.\+App\+Test.\+test\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Prueba para evaluar los conjuntos test para el metodo size 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/usuario/\+Downloads/\+Proyecto\+\_\+\+Estudiantes-\/master/src/test/java/ull/herramientas/opendatachartgenerator/App\+Test.\+java\end{DoxyCompactItemize}

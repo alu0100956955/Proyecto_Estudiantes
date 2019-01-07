@@ -1,0 +1,13 @@
+digraph "ull.herramientas.opendatachartgenerator.salida.IGenerarSalida"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ull.herramientas.opendatachartgenerator.salida.\lIGenerarSalida",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node1 [label="ull.herramientas.opendatachartgenerator.salida.\lGenerarSalidaConsola",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classull_1_1herramientas_1_1opendatachartgenerator_1_1salida_1_1_generar_salida_consola.html",tooltip="clase encargarda de mostrar un informe de los turistas este informe se mostrará por la consola..."];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="ull.herramientas.opendatachartgenerator.salida.\lGenerarSalidaGraficoBarras",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classull_1_1herramientas_1_1opendatachartgenerator_1_1salida_1_1_generar_salida_grafico_barras.html",tooltip="clase encargarda de mostrar un gráfico de barras "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="ull.herramientas.opendatachartgenerator.salida.\lGenerarSalidaGraficoPastel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classull_1_1herramientas_1_1opendatachartgenerator_1_1salida_1_1_generar_salida_grafico_pastel.html",tooltip="clase encargarda de mostrar un gráfico de pastel "];
+}
