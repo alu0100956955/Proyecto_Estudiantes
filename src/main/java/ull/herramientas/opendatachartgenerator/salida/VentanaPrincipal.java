@@ -81,20 +81,20 @@ public class VentanaPrincipal {
 		frame.getContentPane().setLayout(null);
 		//Creación de radio botón de conjunto de datos de población de Barrios de Santa Cruz de Tenerife
 		JRadioButton rdbtnCsv = new JRadioButton(".csv");
-		rdbtnCsv.setBounds(120, 95, 67, 23);
+		rdbtnCsv.setBounds(120, 85, 67, 23);
 		frame.getContentPane().add(rdbtnCsv);
 
 		JRadioButton rdbtntxt = new JRadioButton(".txt");
 		//rdbtntxt.setBounds(196, 143, 67, 23);
-		rdbtntxt.setBounds(200, 95, 63, 23);
+		rdbtntxt.setBounds(200, 85, 63, 23);
 		frame.getContentPane().add(rdbtntxt);
 
 		JRadioButton rdbtnxls = new JRadioButton(".xls");
-		rdbtnxls.setBounds(270, 95, 63, 23);
+		rdbtnxls.setBounds(270, 85, 63, 23);
 		frame.getContentPane().add(rdbtnxls);
 		
 		JTextField cuadro_texto = new JTextField();
-		cuadro_texto.setBounds(123,143,200,30);
+		cuadro_texto.setBounds(100,143,250,30);
 		frame.getContentPane().add(cuadro_texto);
 		
 		rdbtnCsv.addActionListener(new ActionListener() {
@@ -130,8 +130,18 @@ public class VentanaPrincipal {
         //Creación de título de aplicación
 		JLabel lblOpenDataChart = new JLabel("Open Data Chart Generator");
 		lblOpenDataChart.setFont(new Font("Tahoma", Font.BOLD, 23));
-		lblOpenDataChart.setBounds(57, 25, 357, 28);
+		lblOpenDataChart.setBounds(57, 23, 357, 28);
 		frame.getContentPane().add(lblOpenDataChart);
+		
+		JLabel texto1 = new JLabel("Indique el tipo de archivo:");
+		texto1.setFont(new Font("Algerian", Font.BOLD, 14));
+		texto1.setBounds(120, 55, 357, 28);
+		frame.getContentPane().add(texto1);
+		
+		JLabel texto2 = new JLabel("Introduzcala url del archivo:");
+		texto2.setFont(new Font("Algerian", Font.BOLD, 14));
+		texto2.setBounds(120, 110, 357, 28);
+		frame.getContentPane().add(texto2);
 		
 		//int t_selecion =ficheroExaminar.showSaveDialog(getContentPane());
 		//JComboBox comboBox = new JComboBox();
@@ -178,7 +188,7 @@ public class VentanaPrincipal {
 				}
 			}
 		});
-		btnProcesarConjuntoDe.setBounds(132, 184, 193, 23);
+		btnProcesarConjuntoDe.setBounds(125, 184, 193, 23);
 		frame.getContentPane().add(btnProcesarConjuntoDe);
 	}
 }
